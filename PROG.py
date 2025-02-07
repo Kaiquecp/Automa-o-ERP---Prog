@@ -37,7 +37,7 @@ def exibir_janela_concluido():
     messagebox.showinfo("Processo Concluído", "O processo foi concluído com sucesso!")
     root.destroy()
 
-caminho_imagens = r'C:\Users\Kaique\Documents\codigos\automacao_datapar'
+caminho_imagens = r'C:\Users\user\Documents\codigos\automacao_datapar'
 
 try:
     aguardar_localizar_imagem(f'{caminho_imagens}\\campo_codigo.png')
